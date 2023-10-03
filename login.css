@@ -1,0 +1,522 @@
+@font-face {
+  font-family: navFont;
+  src: url(fonts/cream.ttf);
+}
+
+/* Form Styling */
+body {
+  font-family: navFont;
+  background-image: url(img/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  animation: fadeIn 1s;
+  padding-top: 3%; 
+}
+
+#signUpForm {
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fcfcfc;
+  padding-left: 50%;
+  z-index: 1;
+  display: flex;
+  background-image: url(img/container-3-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#signUpForm-login {
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fcfcfc;
+  padding-left: 50%;
+  z-index: 1;
+  display: flex;
+  background-image: url(img/login-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#signUpForm-registration {
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fcfcfc;
+  padding-left: 50%;
+  z-index: 1;
+  display: flex;
+  background-image: url(img/registration-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#forms {                      
+  z-index: 1;   
+  display: flex;
+  width: 1000px;
+  height: 700px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#forms-registration{                      
+  display: flex;
+  width: 1000px;
+  height: 900px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  justify-content: center;
+  font-family: Century Gothic;
+  font-size: 14px;
+  color: #323232;
+}
+
+.holder {
+  width: 500px;
+  background-color: #ffffff;    
+}
+
+.important::after {
+  font-weight: bold;
+  color: red;
+  content: " *";
+}
+
+/* Logo */
+.logo {
+  width: 350px;     
+  padding-top: 30%;
+}
+
+/* Input */
+.register-textbox {
+  width: 220px;
+  height: 41px;
+  padding-left: 21px;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: block;
+  border: 1px solid #ccc;
+}
+
+.login-textbox {
+  width: 320px;
+  height: 41px;
+  padding-left: 21px;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: block;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+/* Buttons */
+.btn {
+  background-color: #ff66c4;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #c54b96;
+}
+
+.create-acc {
+  color: #FFBD59;
+  text-decoration: none;
+}
+
+.create-acc:hover {
+  font-weight: bold;
+  color: #c08e43;
+}
+
+/* OR Lines */
+.or {
+  overflow: hidden;
+  text-align: center;
+}
+
+.or:before,
+.or:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 30%;
+}
+
+.or:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.or:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* Icon */
+.icon {
+  padding: 14px;
+  margin-left: -358px;
+  margin-top: 229px;
+  min-width: 40px;
+  position: absolute;
+  color:grey;
+}
+
+.last-icon {
+  padding: 14px;
+  min-width: 40px;
+  position: absolute;
+  margin-left: -368px;
+  margin-top: 87px;
+  color: grey;
+}
+
+/* checkbox */
+.chckbx {
+  font-family: Century Gothic;
+  font-size: 14px;
+  margin-left: -195px;
+}
+
+.return {
+  font-family: navFont;
+  font-size: 18px;
+  color: #fff;
+  position: absolute  ;
+  top: 3%;
+  left: 2%;
+  text-decoration: none;
+  transition: border-bottom 1s;
+}
+
+.return:hover {
+  color: #FF66C4;
+  border-bottom: 1px #fff solid;
+}
+
+.first {  
+  font-family: Century Gothic;
+  font-size: 16px;
+}
+
+.terms {
+  color: #3078bf;
+  text-decoration: underline;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+} 
+
+.terms:hover {
+  color: #ff66c4;
+}
+
+.register-header-text{
+  font-family: navFont;
+  font-size: 25px;
+  color: #ff66c4;
+}
+
+.register-subheader-text {
+  font-family: Century Gothic;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #323232;
+}
+
+
+
+/* Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1; 
+  }
+}
+
+@font-face {
+  font-family: navFont;
+  src: url(fonts/cream.ttf);
+}
+
+/* Form Styling */
+body {
+  font-family: navFont;
+  background-image: url(img/container-3-img.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  animation: fadeIn 1s;
+  padding-top: 3%; 
+}
+
+#signUpForm {
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fcfcfc;
+  padding-left: 50%;
+  z-index: 1;
+  display: flex;
+  background-image: url(img/container-3-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#signUpForm-login {
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fcfcfc;
+  padding-left: 50%;
+  z-index: 1;
+  display: flex;
+  background-image: url(img/login-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#signUpForm-registration {
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fcfcfc;
+  padding-left: 50%;
+  z-index: 1;
+  display: flex;
+  background-image: url(img/registration-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#forms {                      
+  z-index: 1;   
+  display: flex;
+  width: 1000px;
+  height: 700px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#forms-registration{                      
+  display: flex;
+  width: 1000px;
+  height: 900px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  justify-content: center;
+  font-family: Century Gothic;
+  font-size: 14px;
+  color: #323232;
+}
+
+.holder {
+  width: 500px;
+  background-color: #ffffff;    
+}
+
+.important::after {
+  font-weight: bold;
+  color: red;
+  content: " *";
+}
+
+/* Logo */
+.logo {
+  width: 350px;     
+  padding-top: 30%;
+}
+
+/* Input */
+.register-textbox {
+  width: 220px;
+  height: 41px;
+  padding-left: 21px;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: block;
+  border: 1px solid #ccc;
+}
+
+.login-textbox {
+  width: 320px;
+  height: 41px;
+  padding-left: 21px;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: block;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+/* Buttons */
+.btn {
+  background-color: #ff66c4;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #c54b96;
+}
+
+.create-acc {
+  color: #FFBD59;
+  text-decoration: none;
+}
+
+.create-acc:hover {
+  font-weight: bold;
+  color: #c08e43;
+}
+
+/* OR Lines */
+.or {
+  overflow: hidden;
+  text-align: center;
+}
+
+.or:before,
+.or:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 30%;
+}
+
+.or:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.or:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* Icon */
+.icon {
+  padding: 14px;
+  margin-left: -358px;
+  margin-top: 229px;
+  min-width: 40px;
+  position: absolute;
+  color:grey;
+}
+
+.last-icon {
+  padding: 14px;
+  min-width: 40px;
+  position: absolute;
+  margin-left: -368px;
+  margin-top: 87px;
+  color: grey;
+}
+
+/* checkbox */
+.chckbx {
+  font-family: Century Gothic;
+  font-size: 14px;
+  margin-left: -195px;
+}
+
+.return {
+  font-family: navFont;
+  font-size: 18px;
+  color: #fff;
+  position: absolute  ;
+  top: 3%;
+  left: 2%;
+  text-decoration: none;
+  transition: border-bottom 1s;
+}
+
+.return:hover {
+  color: #FF66C4;
+  border-bottom: 1px #fff solid;
+}
+
+.first {  
+  font-family: Century Gothic;
+  font-size: 16px;
+}
+
+.terms {
+  color: #3078bf;
+  text-decoration: underline;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+} 
+
+.terms:hover {
+  color: #ff66c4;
+}
+
+.register-header-text{
+  font-family: navFont;
+  font-size: 25px;
+  color: #ff66c4;
+}
+
+.register-subheader-text {
+  font-family: Century Gothic;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #323232;
+}
+
+
+
+/* Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1; 
+  }
+}
+

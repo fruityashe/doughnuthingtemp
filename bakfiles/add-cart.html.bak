@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="icon" href="img/logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's the Scoop? | Cart </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+     <div class="back-home">
+            <a href="opt-guest-login.html" class="return"> Return </a>
+       </div>
+	
+    <div class="container">
+        <header>
+            <h1 class="container-header-text">
+				<span style="color: #323232">Shop Cart</span>	
+			</h1>
+            <div class="shopping">
+                <img src="image/shopping.svg">
+                <span class="quantity">0</span>
+            </div>
+        </header>
+
+        <div class="list">
+          
+        </div>
+    </div>
+    <div class="card">
+        <h1>Your Items</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total">P0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
+	<br><br><br>
+    <script src="app.js"></script>
+</body>
+</html>

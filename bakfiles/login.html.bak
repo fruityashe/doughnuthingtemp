@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> What's the Scoop | Login</title>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="img/logo.png">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+
+    <body>
+        <div class="back-home">
+            <a href="opt-guest-login.html" class="return"> Return </a>
+        </div>
+        <center>
+            <div id="forms"> 
+                <div id="signUpForm-login">
+                    <div class="holder">
+                        <img src="img/logo-text.png" class="logo">
+                        
+						<form>
+							<input type="text" class="login-textbox" placeholder="Email Address" important><br>
+							<input type="password" class="login-textbox" placeholder="Password" important>
+						</form>
+                        
+                        <p class="chckbx"><input type="checkbox"> Remember Me</p>
+                        <br><br><br>
+                            <button class="btn">Login</button>
+                            <br><br>
+                        <p class="last">New Scooper? <a href="registration.html" style="color: #3078bf"> Create Account</a></p>
+                    </div> 
+                </div>
+            </div>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>What's the Scoop? | About Us </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main1.css">
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js%22%3E"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js%22%3E"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md">
+   	 <a class="navbar-brand" href="#"><img src="img/logo-text.png" class="logo"></img></a>
+   		 <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+   			 <span class="navbar-toggler-icon"></span>
+   		 </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+   	 <ul class="navbar-nav">
+   		 <li class="nav-item">
+   			 <a class="nav-link" href="index.html">Home</a>
+   		 </li>
+   		 <li class="nav-item">
+   			 <a class="nav-link" href="product-milkshake.html">Products</a>
+   		 </li>
+   		 <li class="nav-item">
+   			 <a class="nav-link" href="aboutus.html">About Us</a>
+   		 </li>
+   		 <li class="nav-item">
+   			 <a class="nav-link" href="contacts.html"  style="color: #FF66C4; border-bottom: 2px #323232 solid;"><b>Contacts</b></a>									
+   		 </li>
+   		 <li class="nav-item">
+   			 <a class="nav-link" href="opt-guest-login.html"><img src="img/user.png" class="icon"></a>
+   		 </li>
+   		 <li class="nav-item">
+   			 <a class="nav-link" href="add-cart.html"><img src="img/cart.png" class="icon"></a>
+   		 </li>
+   	 </ul>
+    </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="page-header header container-fluid">
+        <br><br><br>
+        <div class="header-text">
+            GET IN TOUCH
+        </div>
+        <div class="subheader-text">
+            Connect with us
+        </div>
+        <br><br>    
+        
+        <p class="reminder">
+				<span style="font-size: 40px; font-weight: bolder; color: #A5DF5C">DON'T BE SHY</span><br><br>
+
+            	We genuienely care about you and your wellbeing. Let us know how we can serve you better.
+				Whether you have a question about features, trials, pricing, need a demo, or anything else, 
+				our team is ready to answer all your questions.
+        </p>
+        <img src="img/img-contact.jpg" class="img-contact">
+    </header>
+
+    <!-- Section -->
+    <section class="contact">
+        <div class="content">
+            <h2>Contact us</h2>
+        </div> 
+        <div class="contact-container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><ion-icon name="location-outline"></ion-icon></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>12b. Maginhawa St. 3rd Floor<br>Batasan Hills, Quezon City</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><ion-icon name="call-outline"></ion-icon></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>+63 982 4586 9681<br>Landline: (514) 531-8471</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><ion-icon name="mail-outline"></ion-icon></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>info@whatsthescoop.com<br>whatsthescoop@gmail.com</p>
+                    </div>
+                </div>
+                <h2 class="txt">Connect with us</h2>
+                <ul class="sci">
+                    <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                </ul>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div> 
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </section>
+	
+    <!-- Footer -->
+    <footer class="footer">
+		<div class="footer__addr">
+		  <h1 class="footer__logo"><img src="img/logo-text.png" class="logoFooter"></h1>
+		</div>
+		
+		<ul class="footer__nav">
+		  <li class="nav__item">  
+			<ul class="nav__ul">
+			  <li>
+				<a href="#">Home</a>
+			  </li>
+	  
+			  <li>
+				<a href="#">About us</a>
+			  </li>
+				  
+			  <li>
+				<a href="#">Contact</a>
+			  </li>
+			</ul>
+		  </li>
+		  
+		  <li class="nav__item nav__item--extra">
+			<h2 class="nav__title">Products</h2>
+			
+			<ul class="nav__ul nav__ul--extra">
+			  <li>
+				<a href="#">Ice Cream Crepe</a>
+			  </li>
+			  
+			  <li>
+				<a href="#">Ice Cream Sandwich</a>
+			  </li>
+			  
+			  <li>
+				<a href="#">Vegan Ice Cream</a>
+			  </li>
+			  
+			  <li>
+				<a href="#">Rolled Ice Cream</a>
+			  </li>
+			</ul>
+		  </li>
+	
+		  <div class="vl"></div>
+		  
+		  <li class="nav__item">
+			<h2 class="nav__title">Socials</h2>
+			
+			<ul class="nav__ul">
+			  <li>
+				<div class="boks">
+				  <div class="icon"><ion-icon name="logo-facebook"></ion-icon></ion-icon></div>
+				<div class="soc-text">
+				<a href="#">facebook.com/whatsthescoop</a>
+			  </div>
+			</div>
+			  </li>
+			  
+			  <li>
+				<div class="boks">
+				<div class="icon"><ion-icon name="logo-twitter"></ion-icon></ion-icon></ion-icon></div>
+				<div class="soc-text">
+				<a href="#">twitter.com/whatsthescoop</a>
+				</div>
+			  </div>
+			  </li>
+			  
+			  <li>
+				<div class="boks">
+				<div class="icon"><ion-icon name="logo-instagram"></ion-icon></ion-icon></ion-icon></div>
+				<div class="soc-text">
+				<a href="#">instagram.com/whatsthescoop</a>
+				</div>
+			  </div>
+			  </li>
+	
+			  <li>
+				<div class="boks">
+				<div class="icon"><ion-icon name="logo-youtube"></ion-icon></ion-icon></ion-icon></div>
+				<div class="soc-text">
+				<a href="#">youtube.com/whatsthescoop</a>
+				</div>
+			  </div>
+			  </li>
+			</ul>
+		  </li>
+		</ul>
+	  </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
